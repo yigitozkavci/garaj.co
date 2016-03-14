@@ -380,15 +380,28 @@
     <script>
     function initMap() {
       var mapDiv = document.getElementById('map');
-      var myLatLng = {lat: 41.088579, lng: 29.048557};
+      var garaj = {lat: 41.088579, lng: 29.048557};
+      var southCampus = {lat: 41.085176, lng: 29.046934};
       var map = new google.maps.Map(mapDiv, {
-        center: myLatLng,
+        center: garaj,
         zoom: 14
       });
-      var marker = new google.maps.Marker({
-        position: myLatLng,
-        map: map,
-        title: 'Garaj!'
+
+      var request = {
+        destination: garaj,
+        origin: southCampus,
+        travelMode: google.maps.TravelMode.WALKING
+      };
+      var directionsDisplay = new google.maps.DirectionsRenderer({
+        map: map
+      });
+      // Pass the directions request to the directions service.
+      var directionsService = new google.maps.DirectionsService();
+      directionsService.route(request, function(response, status) {
+        if (status == google.maps.DirectionsStatus.OK) {
+          // Display the route on the map.
+          directionsDisplay.setDirections(response);
+        }
       });
     }
     </script>
