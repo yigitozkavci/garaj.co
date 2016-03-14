@@ -49,3 +49,9 @@
 
 .form-control {
   border-radius: 0px; }
+
+button.fc-button {
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  outline: none !important; }
