@@ -1,2 +1,2 @@
-# init-web-stack
 # garaj.co
+Garaj.co Website
