@@ -27,6 +27,10 @@
   color: #f05f40;
   border-color: #f05f40; }
 
+.btn-orange-empty:focus {
+  color: #f05f40;
+  outline: none; }
+
 .btn-orange-passive:hover {
   background-color: #f05f40;
   border-color: #E35739;

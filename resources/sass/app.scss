@@ -30,6 +30,10 @@
 	color:$orange;
 	border-color:$orange;
 }
+.btn-orange-empty:focus {
+	color:$orange;
+	outline:none;
+}
 .btn-orange-passive:hover {
 	background-color:$orange;
 	border-color:$darker_orange;
