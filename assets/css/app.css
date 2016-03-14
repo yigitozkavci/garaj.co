@@ -3,13 +3,26 @@
   padding: 20px;
   font-size: 20px;
   border-width: 1px;
-  border-style: solid; }
+  border-style: solid;
+  display: inline-block !important;
+  -webkit-transition: 0.2s;
+  transition: 0.2s; }
 
 .btn-orange {
   background-color: #f05f40;
   border-color: #E35739;
   color: white; }
 
-.btn-orange:hover {
+.btn-orange-passive {
+  background-color: white;
+  color: #f05f40;
+  border-color: #f05f40; }
+
+.btn-orange-passive:hover {
+  background-color: #f05f40;
+  border-color: #E35739;
+  color: white; }
+
+.btn-orange:hover, .btn-orange:visited, .btn-orange:active {
   opacity: 0.8;
   color: white; }
