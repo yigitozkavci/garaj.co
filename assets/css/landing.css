@@ -45,3 +45,7 @@ section#people {
           margin-bottom: 10px; }
     section#people .person img {
       width: 100%; }
+
+@media screen and (max-width: 768px) {
+  #mainNav {
+    padding: 0; } }

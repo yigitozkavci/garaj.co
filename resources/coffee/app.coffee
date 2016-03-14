@@ -1,5 +1,8 @@
+# Person fade effect.
 $(".person").hover () ->
 		$(@).find(".info-overlay").stop().fadeToggle 200, ->
+
+# Calendar implementation
 $("#calendar").fullCalendar({
 	eventSources: [
 		{
@@ -25,3 +28,12 @@ $("#calendar").fullCalendar({
 		}
 	]
 });
+# Navbar animation.
+$(document).scroll ->
+	$docWidth = $(document).width()
+	$mainNav = $("#mainNav");
+	if $mainNav.offset().top >= 100 && $docWidth > 768
+			$mainNav.css 'padding', '10px'
+	else
+		if $docWidth > 768
+			$mainNav.css 'padding', '30px'

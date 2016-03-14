@@ -44,12 +44,4 @@
 
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
-    $(document).scroll(function() {
-      var $mainNav = $("#mainNav");
-      if($mainNav.offset().top >= 100) {
-        $mainNav.css('padding', '10px');
-      } else {
-        $mainNav.css('padding', '30px');
-      }
-    });
 })(jQuery); // End of use strict

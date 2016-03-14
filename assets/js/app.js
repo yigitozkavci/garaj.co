@@ -27,4 +27,17 @@
     ]
   });
 
+  $(document).scroll(function() {
+    var $docWidth, $mainNav;
+    $docWidth = $(document).width();
+    $mainNav = $("#mainNav");
+    if ($mainNav.offset().top >= 100 && $docWidth > 768) {
+      return $mainNav.css('padding', '10px');
+    } else {
+      if ($docWidth > 768) {
+        return $mainNav.css('padding', '30px');
+      }
+    }
+  });
+
 }).call(this);
