@@ -1,1 +1,17 @@
-
+@import 'variables';
+.btn {
+	border-radius:2px;
+	padding:20px;
+	font-size:20px;
+	border-width:1px;
+	border-style:solid;
+}
+.btn-orange {
+	background-color:$orange;
+	border-color:$darker_orange;
+	color:white;
+}
+.btn-orange:hover {
+	opacity:0.8;
+	color:white;
+}

@@ -1,0 +1,14 @@
+@import 'variables';
+.bg-filter {
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	background-color:rgba(0, 0, 0, 0.5);
+}
+#mainNav {
+	color:white !important;
+	padding:30px;
+	border:none;
+}
