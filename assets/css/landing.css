@@ -81,6 +81,16 @@ section#people {
   height: 200px;
   background-color: yellow; }
 
+#contact .info-area p {
+  font-size: 16px; }
+
+#contact .info-area i {
+  font-size: 30px; }
+
+#map {
+  width: 100%;
+  min-height: 311px; }
+
 @media screen and (max-width: 768px) {
   #mainNav {
     padding: 0; } }

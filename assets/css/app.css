@@ -9,7 +9,7 @@
   transition: 0.2s; }
 
 .btn.btn-big {
-  padding: 20px;
+  padding: 20px 30px;
   font-size: 20px; }
 
 .btn-orange {
@@ -22,7 +22,17 @@
   color: #f05f40;
   border-color: #f05f40; }
 
+.btn-orange-empty {
+  background-color: transparent;
+  color: #f05f40;
+  border-color: #f05f40; }
+
 .btn-orange-passive:hover {
+  background-color: #f05f40;
+  border-color: #E35739;
+  color: white; }
+
+.btn-orange-empty:hover {
   background-color: #f05f40;
   border-color: #E35739;
   color: white; }
@@ -36,3 +46,6 @@
 
 .top20 {
   margin-top: 20px; }
+
+.form-control {
+  border-radius: 0px; }

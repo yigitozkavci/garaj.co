@@ -28,6 +28,7 @@ $("#calendar").fullCalendar({
 		}
 	]
 });
+
 # Navbar animation.
 $(document).scroll ->
 	$docWidth = $(document).width()
