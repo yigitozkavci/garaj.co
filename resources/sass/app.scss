@@ -1,8 +1,8 @@
 @import 'variables';
 .btn {
-	border-radius:2px;
-	padding:20px;
-	font-size:20px;
+	border-radius:0px;
+	padding:10px;
+	font-size:16px;
 	border-width:1px;
 	border-style:solid;
 	display:inline-block !important;
@@ -10,6 +10,10 @@
 	-moz-transition:0.2s;
 	-o-transition:0.2s;
 	transition:0.2s;
+}
+.btn.btn-big {
+	padding:20px;
+	font-size:20px;
 }
 .btn-orange {
 	background-color:$orange;
@@ -29,4 +33,10 @@
 .btn-orange:hover, .btn-orange:visited, .btn-orange:active {
 	opacity:0.8;
 	color:white;
+}
+.top10 {
+	margin-top:10px;
+}
+.top20 {
+	margin-top:20px;
 }
