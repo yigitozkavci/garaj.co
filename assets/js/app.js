@@ -31,9 +31,13 @@
     var $docWidth, $mainNav;
     $docWidth = $(document).width();
     $mainNav = $("#mainNav");
-    if ($mainNav.offset().top >= 100 && $docWidth > 768) {
-      return $mainNav.css('padding', '10px');
+    if ($mainNav.offset().top >= 100) {
+      $mainNav.css('border-bottom', '3px solid black');
+      if ($docWidth > 768) {
+        return $mainNav.css('padding', '10px');
+      }
     } else {
+      $mainNav.css('border-bottom', 'none');
       if ($docWidth > 768) {
         return $mainNav.css('padding', '30px');
       }
