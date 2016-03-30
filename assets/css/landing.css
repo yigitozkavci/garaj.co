@@ -1,50 +1,6 @@
-.bg-filter {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.6); }
-
-#mainNav {
-  color: white !important;
-  padding: 30px;
-  border: none; }
-
-/* People Section */
 section#people {
   background-color: white;
   color: #f05f40 !important; }
-  section#people .person-outer {
-    margin-bottom: 20px; }
-  section#people .person {
-    position: relative; }
-    section#people .person .info-overlay {
-      position: absolute;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(67, 15, 74, 0.8);
-      color: white;
-      display: none; }
-      section#people .person .info-overlay h3 {
-        padding-top: 30px; }
-      section#people .person .info-overlay p {
-        font-size: 14px; }
-      section#people .person .info-overlay .tags {
-        margin-top: 30px;
-        display: block;
-        width: 100%;
-        float: left;
-        text-align: center; }
-        section#people .person .info-overlay .tags .tag {
-          float: none;
-          padding: 5px;
-          font-size: 12px;
-          margin-bottom: 10px; }
-    section#people .person img {
-      width: 100%; }
 
 /* Blog Section */
 #blog .blog-grid .blog-frame {
@@ -94,7 +50,7 @@ section#people {
 #info {
   position: relative;
   color: white;
-  background-image: url(/assets/img/crystal-background.jpg);
+  background-image: url(/garaj.co/assets/img/crystal-background.jpg);
   background-repeat: no-repeat;
   background-size: cover; }
 
@@ -109,7 +65,3 @@ section#people {
 
 #events {
   background-color: rgba(240, 95, 64, 0.05); }
-
-@media screen and (max-width: 768px) {
-  #mainNav {
-    padding: 0; } }

@@ -1,3 +1,4 @@
+/* Buttons */
 .btn {
   border-radius: 0px;
   padding: 10px;
@@ -45,6 +46,7 @@
   opacity: 0.8;
   color: white; }
 
+/* Utilities */
 .top10 {
   margin-top: 10px; }
 
@@ -59,3 +61,59 @@ button.fc-button {
   box-shadow: none !important;
   text-shadow: none !important;
   outline: none !important; }
+
+/* Person Grid CSS */
+.person-outer {
+  margin-bottom: 20px; }
+
+.person {
+  position: relative;
+  border-radius: 999px; }
+  .person .info-overlay {
+    border-radius: 999px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(67, 15, 74, 0.8);
+    color: white;
+    display: none; }
+    .person .info-overlay h3 {
+      padding-top: 40px; }
+    .person .info-overlay p {
+      font-size: 14px; }
+    .person .info-overlay .tags {
+      margin-top: 0px;
+      display: block;
+      width: 100%;
+      float: left;
+      text-align: center; }
+      .person .info-overlay .tags .tag {
+        float: none;
+        padding: 5px;
+        font-size: 12px;
+        margin-bottom: 10px; }
+  .person img.person-bg {
+    width: 100%;
+    border-radius: 999px; }
+
+.bg-filter {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); }
+
+#mainNav {
+  color: white !important;
+  padding: 30px;
+  border: none; }
+  #mainNav a.navbar-brand {
+    display: none;
+    font-size: 18px; }
+
+@media screen and (max-width: 768px) {
+  #mainNav {
+    padding: 0; } }

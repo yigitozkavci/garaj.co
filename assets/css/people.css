@@ -1,0 +1,57 @@
+header {
+  height: 200px;
+  min-height: 50%; }
+  header h1 {
+    padding-top: 50px; }
+
+.hbadge {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 5px;
+  top: 5px;
+  background-position: center;
+  background-size: cover;
+  border: 2px solid #6EE670;
+  border-radius: 999px; }
+
+.hbadge.hipster {
+  background-image: url(../img/3H/hipster.png); }
+
+.hbadge.hacker {
+  background-image: url(../img/3H/hacker.png); }
+
+.hbadge.hustler {
+  background-image: url(../img/3H/hustler.png); }
+
+.person {
+  border-radius: 2px !important;
+  height: auto; }
+  .person h3 {
+    margin-top: 0;
+    padding-top: 10px;
+    font-weight: bolder;
+    font-size: 20px;
+    min-height: 50px; }
+  .person p {
+    font-size: 14px;
+    min-height: 50px; }
+  .person .tags .tag {
+    font-size: 10px;
+    padding: 5px;
+    margin: 5px; }
+  .person .info-overlay {
+    border-radius: 2px; }
+  .person img {
+    border-radius: 2px !important; }
+
+hr {
+  max-width: 100% !important;
+  border-color: #EEE !important;
+  border-width: 1px !important; }
+
+@media screen and (max-width: 768px) {
+  .hbadge {
+    bottom: 40px; }
+  .header-content {
+    padding-top: 40px !important; } }
