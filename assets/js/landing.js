@@ -20,7 +20,8 @@
         color: '#f05f40',
         textColor: '#FAEEEB'
       }
-    ]
+    ],
+    height: 420
   });
 
 }).call(this);
