@@ -2,30 +2,6 @@ section#people {
   background-color: white;
   color: #f05f40 !important; }
 
-/* Blog Section */
-section#blog .blog-post {
-  text-align: center;
-  width: 100%;
-  background-color: #F5F5F5;
-  border-radius: 2px;
-  padding: 5px; }
-  section#blog .blog-post p {
-    font-size: 14px;
-    margin-top: 10px; }
-  section#blog .blog-post img {
-    width: 100%;
-    border-top-right-radius: 2px;
-    border-top-left-radius: 2px; }
-  section#blog .blog-post .blog-tags {
-    margin-top: 10px; }
-    section#blog .blog-post .blog-tags .blog-tag {
-      font-size: 12px;
-      opacity: 0.7;
-      border: 2px solid #430f4a;
-      border-radius: 2px;
-      padding: 3px;
-      color: #430f4a; }
-
 #contact .info-area p {
   font-size: 16px; }
 

@@ -3,36 +3,6 @@ section#people {
 	background-color:white;
 	color:$orange !important;
 }
-/* Blog Section */
-section#blog {
-	.blog-post {
-		text-align:center;
-		width:100%;
-		background-color:#F5F5F5;
-		border-radius:2px;
-		padding:5px;
-		p {
-			font-size:14px;
-			margin-top:10px;
-		}
-		img {
-			width:100%;
-			border-top-right-radius:2px;
-			border-top-left-radius:2px;
-		}
-		.blog-tags {
-			margin-top:10px;
-			.blog-tag {
-				font-size:12px;
-				opacity:0.7;
-				border:2px solid $violet;
-				border-radius:2px;
-				padding:3px;
-				color:$violet;
-			}
-		}
-	}
-}
 #contact {
 	.info-area {
 		p {

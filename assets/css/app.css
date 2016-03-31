@@ -114,6 +114,42 @@ button.fc-button {
     display: none;
     font-size: 18px; }
 
+.blog-post-outer {
+  margin-bottom: 50px;
+  height: 260px; }
+
+.blog-post-outer:hover {
+  opacity: 0.7; }
+
+.blog-post {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  background-color: #F2F2F2;
+  border-radius: 2px;
+  padding: 5px;
+  color: #430f4a;
+  display: block; }
+  .blog-post p {
+    font-size: 14px;
+    margin-top: 10px; }
+  .blog-post img {
+    width: 100%;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px; }
+  .blog-post .blog-tags {
+    margin-top: 10px; }
+    .blog-post .blog-tags .blog-tag {
+      font-size: 14px;
+      opacity: 0.7;
+      border: 2px solid #430f4a;
+      border-radius: 2px;
+      padding: 3px; }
+
+a:hover {
+  text-decoration: none;
+  color: inherit; }
+
 @media screen and (max-width: 768px) {
   #mainNav {
     padding: 0; } }
