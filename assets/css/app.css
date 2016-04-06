@@ -150,6 +150,12 @@ a:hover {
   text-decoration: none;
   color: inherit; }
 
+.cool {
+  color: black;
+  font-size: 18px;
+  text-transform: none;
+  font-family: 'Coming Soon', cursive; }
+
 @media screen and (max-width: 768px) {
   #mainNav {
     padding: 0; } }

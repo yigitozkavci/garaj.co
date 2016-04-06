@@ -178,14 +178,16 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../../img/landing-image.jpg);
     background-position: center;
+    background-color:transparent;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
-
+header.bg-image-header {
+  background-image: url(../../img/landing-image.jpg);
+}
 header .header-content {
     position: relative;
     width: 100%;
