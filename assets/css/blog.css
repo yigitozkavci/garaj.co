@@ -1,2 +1,22 @@
 header.single-blog-post-header .header-content {
   color: black !important; }
+  header.single-blog-post-header .header-content i.owner {
+    margin-top: 50px;
+    display: inline-block;
+    font-size: 16px;
+    color: black;
+    opacity: 0.5; }
+
+.back-button {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  font-size: 30px;
+  color: #f05f40;
+  font-weight: bolder; }
+
+.back-button, .back-button i {
+  z-index: 2; }
+
+#mainNav {
+  z-index: 1; }
